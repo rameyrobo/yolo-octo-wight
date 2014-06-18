@@ -1,0 +1,336 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="stylesheet" href="styles/main.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+    <link rel="stylesheet" href="bower_components/fancybox/source/jquery.fancybox.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="bower_components/fancybox/source/helpers/jquery.fancybox-buttons.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="bower_components/fancybox/source/helpers/jquery.fancybox-thumbs.css" type="text/css" media="screen">
+    
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <nav class="fixed-top" id="navigation">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 center">
+                    <!-- LOGO -->
+                    <a class="brand pull-left" href="./">
+                        <img src="images/logo.png" alt="Yup" style="margin-top: -14px;">
+                    </a>
+                    <!-- END LOGO -->
+
+                    <!-- MOBILE MENU BUTTON -->
+
+                    <div class="mobile-menu open" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </div>
+                    <!-- END MOBILE MENU BUTTON -->
+
+                    <!-- MAIN MENU -->
+                    <ul id="main-menu" class="nav-collapse collapse" style="left: ‒165px; margin-left: -150px; padding-left: 20px;">
+
+                       
+                        <li data-toggle="collapse" data-target=".nav-collapse"> <a href="#" class="plugin-filter" data-filter="photos">Photos</a>
+                        </li>
+                        <li data-toggle="collapse" data-target=".nav-collapse"> <a href="#" class="plugin-filter" data-filter="videos">Videos</a>
+                        </li>
+                        <li data-toggle="collapse" data-target=".nav-collapse"> <a href="#" class="plugin-filter" data-filter="sites">websites</a>
+                        </li>
+                       
+                    </ul>
+                    <!-- END MAIN MENU -->
+
+                    <!-- SOCIAL ICONS -->
+                    <!-- <div class="social-icons hover-big pull-right">
+                       
+                        <a href="https://twitter.com/zenithstudiosla" target="_blank" class="sicon-twitter"><i>Twitter</i></a>
+                        <a href="http://www.youtube.com/zenithstudiosla" target="_blank" class="sicon-youtube"><i>Youtube</i></a>
+                        <a href="http://instagram.com/zenith_studios" target="_blank" class="sicon-pinterest"><i>Pinterest</i></a>
+                    </div> -->
+                    <!-- END SOCIAL ICONS -->
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- END NAVIGATION -->
+
+<!-- PAGE | WORK -->
+    <div class="pages page-work" id="page-portfolio">
+        <div class="container">
+            <div class="row">
+            <!-- Header -->
+            <header>
+                <h1>WORK</h1>
+                <div class="line-divider"></div>
+                <!-- Sub menu -->
+                <!-- 
+                Params: 
+                    plugin-filter: Defines links for filtering.
+                -->
+                <nav class="submenu">
+                    <ul>
+                        <li>
+                            <a href="#" class="plugin-filter active" data-filter="all">All</a>
+                        </li>
+                        <li>
+                            <a href="#" class="plugin-filter" data-filter="photos">Photos</a>
+                        </li>
+                        <li>
+                            <a href="#" class="plugin-filter" data-filter="videos">Videos</a>
+                        </li>
+                        <li>
+                            <a href="#" class="plugin-filter" data-filter="sites">web Design &amp; Development</a>
+                        </li>
+                        <li>
+                            <a href="#" class="plugin-filter" data-filter="resume">Resume</a>
+                        </li>
+                        
+                    </ul>
+                </nav>
+            </header>
+            <!-- End Header -->
+
+            <!-- Article -->
+            <article>
+                <!-- Portfolio items
+                    Params: 
+                        plugin-filter-elements: Defines items for filtering, each item has class which defines filter value.
+                        portfolio-items: Customise portfolio items for hover effect.
+                -->
+                <div class="thumbnails work-items plugin-filter-elements">
+                    <div class="col-md-4 mix videos">
+                        <a href="#pages/portfolio/thereisnoquit.html" data-destination="work-items" data-insert="before">
+                            <!-- Portfolio image -->
+                            <img src="images/01_th.jpg" alt="There Is No Quit">
+
+                            <!-- Portfolio name, activated on hover -->
+                            <div class="work-overlay">
+                                <h4>There Is No Quit</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 mix videos">
+                        <a href="#pages/portfolio/nraysfitness.html" data-destination="work-items" data-insert="before">
+                            <img src="images/02_th.jpg" alt="Nray's Fitness">
+                            <div class="work-overlay">
+                                <h4>Nray's Fitness</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 mix videos">
+                        <a href="#pages/portfolio/daytona.html" data-destination="work-items" data-insert="before">
+                            <img src="images/03_th.jpg" alt="Daytona &amp; the Blueside Rockers">
+                            <div class="work-overlay">
+                                <h4>Daytona &amp;
+                                    the Blueside Rockers</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 mix sites">
+                        <a href="http://zenithrecordingstudios.com/" target="_blank">
+                            <img src="images/04_th.jpg" alt="Rose and Vines">
+                            <div class="work-overlay">
+                                <h4>Zenith Recording Studios</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 mix sites">
+                        <a href="http://filthinfurs.com/" target="_blank">
+                            <img src="images/05_th.jpg" alt="The Downtown Train">
+                            <div class="work-overlay">
+                                <h4>Filth In Furs</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 mix sites">
+                        <a href="https://rameyrobo.github.io/lawfulcarry" target="_blank">
+                            <img src="images/06_th.jpg" alt="Lawful Carry">
+                            <div class="work-overlay">
+                                <h4>Lawful Carry</h4>
+                            </div>
+                        </a>
+                    </div>
+                 
+                
+            
+           
+
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/1010686-com-re.jpg" class="fancybox" rel="gallery"><img src="images/1010686crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/1010722-com-re.jpg" class="fancybox" rel="gallery"><img src="images/1010722crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/1010866-com-re.jpg" class="fancybox" rel="gallery"><img src="images/1010866crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/1010909-com-re.jpg" class="fancybox" rel="gallery"><img src="images/1010909crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/1010915-com-re.jpg" class="fancybox" rel="gallery"><img src="images/1010915crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/1010934-com-re.jpg" class="fancybox" rel="gallery"><img src="images/1010934crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/1020005-com-re.jpg" class="fancybox" rel="gallery"><img src="images/1020005crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/1020053-com-re.jpg" class="fancybox" rel="gallery"><img src="images/1020053crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/1020140-com-re.jpg" class="fancybox" rel="gallery"><img src="images/1020140crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/1020192-com-re.jpg" class="fancybox" rel="gallery"><img src="images/1020192crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/1020247-com-re.jpg" class="fancybox" rel="gallery"><img src="images/1020247crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/1020262-com-re.jpg" class="fancybox" rel="gallery"><img src="images/1020262crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/1020354-com-re.jpg" class="fancybox" rel="gallery"><img src="images/1020354crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/1020477-com-re.jpg" class="fancybox" rel="gallery"><img src="images/1020477crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/1020578-com-re.jpg" class="fancybox" rel="gallery"><img src="images/1020578crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/1020629-com-re.jpg" class="fancybox" rel="gallery"><img src="images/1020629crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/1020634-com-re.jpg" class="fancybox" rel="gallery"><img src="images/1020634crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/1020675-edit-com-re.jpg" class="fancybox fancybox.ajax" rel="gallery"><img src="images/1020675-editcrcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/1020708-com-re.jpg" class="fancybox" rel="gallery"><img src="images/1020708crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/1030201-com-re.jpg" class="fancybox" rel="gallery"><img src="images/1030201crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/1030260-com-re.jpg" class="fancybox" rel="gallery"><img src="images/1030260crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/1040047-com-re.jpg" class="fancybox" rel="gallery"><img src="images/1040047crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/1040075-com-re.jpg" class="fancybox" rel="gallery"><img src="images/1040075crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/1040122-com-re.jpg" class="fancybox" rel="gallery"><img src="images/1040122crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/1040124-com-re.jpg" class="fancybox fancybox.ajax" rel="gallery"><img src="images/1040124crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/1040142-com-re.jpg" class="fancybox fancybox.ajax" rel="gallery"><img src="images/1040142crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/1040163-com-re.jpg" class="fancybox fancybox.ajax" rel="gallery"><img src="images/1040163crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/1040164-com-re.jpg" class="fancybox fancybox.ajax" rel="gallery"><img src="images/1040164crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/1040253-com-re.jpg" class="fancybox fancybox.ajax" rel="gallery"><img src="images/1040253crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/1040263-com-re.jpg" class="fancybox fancybox.ajax" rel="gallery"><img src="images/1040263crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/1040287-com-re.jpg" class="fancybox" rel="gallery"><img src="images/1040287crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/1040289-com-re.jpg" class="fancybox" rel="gallery"><img src="images/1040289crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/1040289-com-re.jpg" class="fancybox" rel="gallery"><img src="images/1040289crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/1040306-com-re.jpg" class="fancybox" rel="gallery"><img src="images/1040306crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/allahlas2-com-re.jpg" class="fancybox" rel="gallery"><img src="images/allahlas2crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/allahlas3-com-re.jpg" class="fancybox" rel="gallery"><img src="images/allahlas3crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/allahlas4-com-re.jpg" class="fancybox" rel="gallery"><img src="images/allahlas4crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/cosmonauts-com-re.jpg" class="fancybox" rel="gallery"><img src="images/cosmonautscrcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/deapvalley2-com-re.jpg" class="fancybox" rel="gallery"><img src="images/deapvalley2crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/disappears-com-re.jpg" class="fancybox" rel="gallery"><img src="images/disappearscrcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/hipsternaut-com-re.jpg" class="fancybox" rel="gallery"><img src="images/hipsternautcrcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/jjuujjuu2-com-re.jpg" class="fancybox" rel="gallery"><img src="images/jjuujjuu2crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/jjuujjuu3-com-re.jpg" class="fancybox" rel="gallery"><img src="images/jjuujjuu3crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/jjuujjuu4-com-re.jpg" class="fancybox" rel="gallery"><img src="images/jjuujjuu4crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/kiev2-com-re.jpg" class="fancybox" rel="gallery"><img src="images/kiev2crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/liars-com-re.jpg" class="fancybox" rel="gallery"><img src="images/liarscrcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/liars2-com-re.jpg" class="fancybox" rel="gallery"><img src="images/liars2crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/liars3-com-re.jpg" class="fancybox" rel="gallery"><img src="images/liars3crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/nightbeats2-com-re.jpg" class="fancybox" rel="gallery"><img src="images/nightbeats2crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/nightbeats3-com-re.jpg" class="fancybox" rel="gallery"><img src="images/nightbeats3crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/nightbeats4-com-re.jpg" class="fancybox" rel="gallery"><img src="images/nightbeats4crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/nightbeats5-com-re.jpg" class="fancybox" rel="gallery"><img src="images/nightbeats5crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/p1020686-com-re.jpg" class="fancybox" rel="gallery"><img src="images/p1020686crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/p1030725-com-re.jpg" class="fancybox" rel="gallery"><img src="images/p1030725crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/p1030957-com-re.jpg" class="fancybox" rel="gallery"><img src="images/p1030957crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/p1040008-com-re.jpg" class="fancybox" rel="gallery"><img src="images/p1040008crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/p1040303-com-re.jpg" class="fancybox" rel="gallery"><img src="images/p1040303crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/p1040671-com-re.jpg" class="fancybox" rel="gallery"><img src="images/P1040671crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/ravonettes2-com-re.jpg" class="fancybox" rel="gallery"><img src="images/ravonettes2crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/ravonettes3-com-re.jpg" class="fancybox" rel="gallery"><img src="images/ravonettes3crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/ravonettes4-com-re.jpg" class="fancybox" rel="gallery"><img src="images/ravonettes4crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/ravonettes5-edit-com-re.jpg" class="fancybox" rel="gallery"><img src="images/ravonettes5-editcrcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/ravonettes6-com-re.jpg" class="fancybox" rel="gallery"><img src="images/ravonettes6crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/ravonettes7jpg" class="fancybox" rel="gallery"><img src="images/ravonettes7crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/terakfraft-com-re.jpg" class="fancybox" rel="gallery"><img src="images/terakfraftcrcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/terakfraft21-com-re.jpg" class="fancybox" rel="gallery"><img src="images/terakfraft21crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/terakraft3-com-re.jpg" class="fancybox" rel="gallery"><img src="images/terakraft3crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/terakraft5-com-re.jpg" class="fancybox" rel="gallery"><img src="images/terakraft5crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/tinyredchurch-com-re.jpg" class="fancybox" rel="gallery"><img src="images/tinyredchurchcrcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/welcome-com-re.jpg" class="fancybox" rel="gallery"><img src="images/welcomecrcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/_1010644-com-re.jpg" class="fancybox" rel="gallery"><img src="images/_1010644crcr.jpg" class="imgThumbnails"></a></div>
+<div class="col-xs-4 col-md- col-lg-2"><a href="images/07_th-com-re.jpg" class="fancybox" rel="gallery"><img src="images/07_th.jpg" style="margin-left:205px;"></a></div>
+                
+                 <!-- End of work-mix -->
+            
+
+            <!-- End Article -->
+
+</article>
+
+
+        </div>
+    </div>
+    
+</div>
+
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+
+        <!-- build:js scripts/main.js -->
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="scripts/main.js"></script>
+        <script src="scripts/hello.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js scripts/vendor/bootstrap.js -->
+        <script src="bower_components/bootstrap/js/affix.js"></script>
+        <script src="bower_components/bootstrap/js/alert.js"></script>
+        <script src="bower_components/bootstrap/js/dropdown.js"></script>
+        <script src="bower_components/bootstrap/js/tooltip.js"></script>
+        <script src="bower_components/bootstrap/js/modal.js"></script>
+        <script src="bower_components/bootstrap/js/transition.js"></script>
+        <script src="bower_components/bootstrap/js/button.js"></script>
+        <script src="bower_components/bootstrap/js/popover.js"></script>
+        <script src="bower_components/bootstrap/js/carousel.js"></script>
+        <script src="bower_components/bootstrap/js/scrollspy.js"></script>
+        <script src="bower_components/bootstrap/js/collapse.js"></script>
+        <script src="bower_components/bootstrap/js/tab.js"></script>
+        <!-- endbuild -->
+
+        <!-- Plug-ins -->
+<!-- 
+        <script src="scripts/jquery.bxslider.min.js" type="text/javascript"></script>
+        <script src="scripts/jquery.centralized.min.js" type="text/javascript"></script>
+        <script src="scripts/jquery.fixedonlater.min.js" type="text/javascript"></script>
+        <script src="scripts/jquery.hashloader.min.js" type="textarea/javascript"></script>
+        <script src="scripts/jquery.hashloader2.min.js" type="text/javascript"></script>
+        <script src="scripts/jquery.mixitup.min.js" type="text/javascript"></script>
+        <script src="scripts/jquery.nav.min.js" type="text/javascript"></script>
+        <script src="scripts/jquery.parallax-1.1.3.min.js" type="text/javascript"></script>
+        <script src="scripts/jquery.responsivevideos.min.js" type="text/javascript"></script>
+        <script src="scripts/jquery.scrollTo.min.js" type="text/javascript"></script>
+-->
+        <script src="scripts/application.js"></script>
+
+        <script src="bower_components/animated-scrollto/animatedScrollTo.js"></script>
+        <script src="bower_components/bxslider/jquery.BxSlider.min.js"></script>
+        <script src="bower_components/bxslider/jquery.easing.1.3.js"></script>
+        <script src="bower_components/dreamerslab-jquery.center/jquery.center.min.js"></script>
+        <script src="bower_components/mixitup/src/jquery.mixitup.js"></script>
+        <script src="bower_components/parallax/deploy/jquery.parallax.min.js"></script>
+        <script src="bower_components/parallax/deploy/parallax.min.js"></script>
+
+        <!-- End Plug-ins-->
+
+        <!-- FancyBox-->
+
+        <script src="bower_components/fancybox/lib/jquery-1.10.1.min.js"></script>
+        <script src="bower_components/fancybox/lib/jquery-1.9.0.min.js"></script>
+        <script src="bower_components/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+        <script src="bower_components/fancybox/source/jquery.fancybox.js"></script>
+        <script src="bower_components/fancybox/source/jquery.fancybox.pack.js"></script> 
+        <!--End FancyBox-->
+
+
+         <script type="text/javascript">
+    $(document).ready(function() {
+        $('.fancybox').fancybox();
+    });
+    </script>
+</body>
+</html>
